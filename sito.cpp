@@ -21,7 +21,7 @@ void sito() {
 
 void rozklad(int n) {
     while (n > 1) {
-        cout << t[n] << endl;
+        cout << t[n] << " ";
         n /= t[n];
     }
 }
